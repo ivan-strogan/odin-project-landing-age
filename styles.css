@@ -49,7 +49,8 @@ body {
 }
 
 div.header,
-div.about {
+div.about,
+div.footer {
   padding: 0 200px;
 }
 
@@ -59,6 +60,14 @@ div.header {
   align-items: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+div.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 ul.nav-links {
