@@ -41,6 +41,13 @@ body {
   color: #1f2937;
 }
 
+.quote-text {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
 div.header,
 div.about {
   padding: 0 200px;
@@ -128,4 +135,16 @@ li.card img {
 li.card p {
   text-align: center;
   width: 150px;
+}
+
+div.testimony {
+  background-color: #e5e7eb;
+  margin: 80px 0;
+  padding: 100px 200px;
+}
+div.testimony-author {
+  display: flex;
+  justify-content: end;
+  padding-right: 15px;
+  margin-top: 10px;
 }
