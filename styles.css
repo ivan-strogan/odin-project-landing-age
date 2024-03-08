@@ -1,4 +1,91 @@
 * {
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
     sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.dark-background-color {
+  background-color: #1f2937;
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero-main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+div.header,
+div.about {
+  padding: 0 200px;
+}
+
+div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul.nav-links {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  font-size: 18px;
+}
+
+div.about {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 30px;
+}
+p.hero-secondary-text {
+  margin-bottom: 8px;
+}
+
+div.about div.main,
+div.about div.about-img {
+  outline: dashed pink 1px;
+  display: flex;
+  flex: 1 1 0;
+}
+
+div.about div.about-img {
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+div.about div.main {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.btn {
+  background-color: #3882f6;
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-weight: bold;
 }
