@@ -18,7 +18,8 @@ body {
   background-color: #1f2937;
 }
 
-.header-logo-text {
+.header-logo-text,
+div.sign-up-text p.title {
   font-size: 24px;
   color: #f9faf8;
 }
@@ -79,17 +80,17 @@ ul.nav-links {
 
 div.about {
   display: flex;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  gap: 30px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  gap: 50px;
 }
-p.hero-secondary-text {
+div.about p.hero-secondary-text {
   margin-bottom: 8px;
 }
 
 div.about div.main,
 div.about div.about-img {
-  outline: dashed pink 1px;
+  /* outline: dashed pink 1px; */
   display: flex;
   flex: 1 1 0;
 }
@@ -112,6 +113,8 @@ div.about div.main {
   border-radius: 8px;
   color: #f9faf8;
   font-weight: bold;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
 
 div.info {
@@ -135,25 +138,41 @@ li.card {
 }
 
 li.card img {
-  height: 150px;
-  width: 150px;
+  height: 175px;
+  width: 175px;
   border: solid #3882f6 4px;
-  border-radius: 8px;
+  border-radius: 16px;
 }
 
 li.card p {
   text-align: center;
-  width: 150px;
+  width: 175px;
 }
 
 div.testimony {
   background-color: #e5e7eb;
-  margin: 80px 0;
-  padding: 100px 200px;
+  margin: 80px 0 0 0;
+  padding: 100px 350px;
 }
+
 div.testimony-author {
   display: flex;
   justify-content: end;
   padding-right: 15px;
   margin-top: 10px;
+}
+
+div.sign-up {
+  margin: 100px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 50px 50px;
+  border-radius: 10px;
+  gap: 50px;
+}
+
+.btn.border {
+  border: solid white 2px;
 }
